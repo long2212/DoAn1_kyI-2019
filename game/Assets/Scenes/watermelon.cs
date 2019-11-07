@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class watermelon : MonoBehaviour
+public class watermelon : MonoBehaviour, fruit
 {
     // Start is called before the first frame update
     public new GameObject camera;

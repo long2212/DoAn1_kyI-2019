@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class quince : MonoBehaviour
+public class quince : MonoBehaviour, fruit
 {
     // Start is called before the first frame update
     public new GameObject camera;
