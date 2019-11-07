@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class apple : MonoBehaviour
+public class apple : MonoBehaviour, fruit
 {
     // Start is called before the first frame update
     // Update is called once per frame
@@ -31,7 +31,7 @@ public class apple : MonoBehaviour
     public string nameobject = "apple";
     private void Start()
     {
-        this.transform.position = new Vector3(10, 0, 0);
+        //this.transform.position = new Vector3(10, 0, 0);
         screenWidth = Screen.width;
         screenHeight = Screen.height;
         frameWidth = Mathf.RoundToInt(screenWidth * photoWidth * 0.01f);

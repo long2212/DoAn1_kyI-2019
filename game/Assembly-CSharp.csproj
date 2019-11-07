@@ -66,7 +66,14 @@
     <Compile Include="Assets\Scenes\apple.cs" />
     <Compile Include="Assets\Scenes\banana.cs" />
     <Compile Include="Assets\Scenes\cameramove.cs" />
+    <Compile Include="Assets\Scenes\kiwi.cs" />
+    <Compile Include="Assets\Scenes\lemon.cs" />
+    <Compile Include="Assets\Scenes\orange.cs" />
+    <Compile Include="Assets\Scenes\pineapple.cs" />
+    <Compile Include="Assets\Scenes\pomegranate.cs" />
+    <Compile Include="Assets\Scenes\quince.cs" />
     <Compile Include="Assets\Scenes\ScreenTexture.cs" />
+    <Compile Include="Assets\Scenes\watermelon.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Nam 4/DoAn_1/DoAn1_kyI-2019/game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

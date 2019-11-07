@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class banana : MonoBehaviour
+public class banana : MonoBehaviour, fruit
 {
     // Start is called before the first frame update
     public new GameObject camera;
@@ -30,7 +30,7 @@ public class banana : MonoBehaviour
     ScreenTexture st = new ScreenTexture();
     private void Start()
     {
-        this.transform.position = new Vector3(10, 0, 0);
+        //this.transform.position = new Vector3(10, 0, 0);
         screenWidth = Screen.width;
         screenHeight = Screen.height;
         frameWidth = Mathf.RoundToInt(screenWidth * photoWidth * 0.01f);

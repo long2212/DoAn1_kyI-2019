@@ -15,10 +15,12 @@ public class cameramove : MonoBehaviour
         if (Input.GetKey(KeyCode.Space)) 
         {
             this.transform.position = new Vector3(0, 3.5f, -20);
+            this.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         if (Input.GetKey(KeyCode.U))
         {
-            this.transform.position = new Vector3(0, 203.5f, -20);
+            this.transform.position = new Vector3(40, 203.5f, -20);
+            this.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         if (Input.GetKey(KeyCode.Keypad4))
         {

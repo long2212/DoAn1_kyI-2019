@@ -38,8 +38,8 @@ public class ScreenTexture : MonoBehaviour
     void Update()
     {
         //species = banana.name;
-        //if (Input.GetKeyUp(KeyCode.KeypadEnter))
-        //    StartCoroutine(CaptureScreen(specis));
+        if (Input.GetKeyUp(KeyCode.KeypadEnter))
+            StartCoroutine(CaptureScreen(specis));
     }
     void OnGUI()
     {
@@ -60,7 +60,7 @@ public class ScreenTexture : MonoBehaviour
         texture.Apply();
         shoot = true;
 
-        yield return UploadPNG(aname);
+        //yield return UploadPNG(aname);
     }
 
     public IEnumerator UploadPNG(string aname)
@@ -86,4 +86,9 @@ public class ScreenTexture : MonoBehaviour
         File.WriteAllBytes(Application.dataPath + "/Picture/" + aname + "/" + namepicture.ToString() + ".png", bytes);
         namepicture++;
     }
+}
+public interface fruit
+{
+    IEnumerator CaptureScreen(string aname);
+    IEnumerator UploadPNG(string aname);
 }
