@@ -54,8 +54,6 @@ public class orange : MonoBehaviour, fruit
         {
             this.transform.position = new Vector3(40, 200, 0);
         }
-
-
     }
 
 
